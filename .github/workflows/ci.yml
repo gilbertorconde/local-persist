@@ -36,7 +36,7 @@ jobs:
         run: make binary-linux-amd64
       
       - name: Make Binaries aarch64
-        run: make binary-linux-aarch64
+        run: make binary-linux-arm64
 
       - name: Change Permissions
         run: chmod +x ./bin/linux/amd64/local-persist
